@@ -1,0 +1,35 @@
+*{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+body{
+  color: $color-dark;
+  font: inherit;
+  font-family: $font-condensed;
+  font-weight: 300;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+a{
+	color: $color-link;
+	text-decoration: none;
+	&:hover{
+		opacity: .8;
+	}
+}
+h1{
+	font-size: 2rem;
+	font-variant: uppercase;
+}
+.button{
+	color: #FFF;
+	background: $color-link;
+	display: block;
+	padding: .5rem 1rem;
+	text-align: center;
+}
