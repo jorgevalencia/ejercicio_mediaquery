@@ -1,0 +1,57 @@
+*{
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+.center{
+	display: block;
+	text-align: center;
+}
+body{
+  color: $color-dark;
+  font: inherit;
+  font-family: $font-condensed;
+  font-weight: 300;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+a{
+	color: $color-link;
+	text-decoration: none;
+	&:hover{
+		opacity: .8;
+	}
+}
+h1{
+	font-size: 2rem;
+	font-variant: uppercase;
+}
+.button{
+	color: #FFF;
+	background: $color-link;
+	display: block;
+	font-weight: 400;
+	padding: 1rem;
+	text-align: center;
+}
+p{
+	font-family: $font-condensed;
+	font-weight: 100;
+	margin: 1rem auto;
+}
+ul{
+	font-family: $font-condensed;
+	font-weight: 100;
+}
+img{
+	width: 100%;
+}

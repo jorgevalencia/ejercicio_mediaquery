@@ -1,0 +1,148 @@
+////////////////////////
+// Menu
+///////////////////////
+
+.logo{
+	width: 360px;
+	margin: auto;
+	padding: 1rem 1rem 0;
+	margin: auto;
+	@media all and (min-width: 768px) {
+		float: left;
+		padding: 1rem;
+	}
+}
+.menu{
+	color: #fff;
+	float: right;
+	font-weight: 400;
+	margin: 1rem auto;
+  text-align: center;
+  width: 100%;
+	a {
+		color: #fff;
+		padding: .4rem;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.selected{
+		color: $color-alternate;
+	}
+	@media all and (min-width: 768px) {
+		margin: 3.5rem 2rem 0 0;
+		text-align: left;
+		width: auto;
+	}
+}
+
+////////////////////////
+// Product Main Info
+///////////////////////
+.product-info{
+	float: left;
+	margin: 2rem 0 1rem;
+	padding: 0 2.5rem;
+	position: relative;
+	text-transform: uppercase;
+	width: 100%;
+	@media all and (min-width: 768px) {
+		padding: 0 2.5rem;
+		padding-left: 2.5rem;
+		width: 38%;
+	}
+}
+.product-secondaryInfo{
+	float: left;
+	margin: 2rem 0 1rem;
+	padding: 0 2.5rem;
+	width: 100%;
+	ul{
+			margin: 1rem auto;
+	}
+	@media all and (min-width: 768px) {
+		margin: 1.5rem auto;
+		padding: 0 2.5rem;
+		padding-left: 2.5rem;
+		width: 38%;
+	}
+}
+.product-photo{
+	float: left;
+	width: 100%;
+	@media all and (min-width: 768px) {
+		width: 60%;
+	}
+}
+.block-title{
+	position: relative;
+}
+.tallas{
+	display: block;
+	padding: 2rem 0;
+	margin: 1.5rem auto;
+	border-bottom: solid thin #ededed;
+	border-top: solid thin #ededed;
+}
+.product-price{
+	font-size: 2rem;
+	font-weight: 300;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.link-block{
+	float: right;
+}
+.product-size{
+	float: left;
+	li{
+		display: inline-block;
+		a{
+			border: $color-link solid thin;
+			padding: .5rem 1rem;
+			&.selected{
+				color: #FFF;
+				background: $color-dark;
+				border-color: $color-dark;
+			}
+		}
+	}
+}
+.button-container{
+	border-bottom: solid thin #ededed;
+	padding-bottom: 1.5rem;
+}
+.share{
+	clear: both;
+	display: inline-block;
+	margin: 1rem auto;
+	a{
+		display: inline-block;
+		margin: auto .25rem;
+    height: 32px;
+    width: 32px;
+	}
+	h4{
+		color: #999;
+		display: block;
+		margin-right: .5rem;
+		float: left;
+		font-weight: 300;
+		padding-top: 4px;
+		text-transform: uppercase;
+	}
+	@media all and (min-width: 768px) {
+			margin: 2rem auto;
+	}
+}
+.product-photo{
+	background: #F3F3F3;
+	overflow: hidden;
+	img{
+		height: 100%;
+		width: 100%;
+	}
+	@media all and (min-width: 768px) {
+			background: none;
+	}
+}

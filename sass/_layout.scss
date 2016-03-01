@@ -1,0 +1,15 @@
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+}
+.block{
+	display: block;
+}
+header{
+	background: $color-link;
+	position: relative;
+}
+footer{
+	background: $color-dark;
+}
